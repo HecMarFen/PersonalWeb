@@ -1,14 +1,16 @@
-
+import '../Styles/About.css'
 
 export default function About(){
     return(
-        <div>
-            <p>A bit About me</p>
+        <>
+        <h2>About me</h2>
             <hr/>
+        
+        <div className="box">
             <div>
                 <p>
                     Hello world. I am Hector Marin Fenoll I am a Spanish soul based in Berlin.
-                    I am an aspairing Web Developer who recently decided to change carreer and swim into
+                    I am an aspiring Web Developer who recently decided to change carreer and swim into
                     the tech industry. I hold a Bachellor in Business science, and a second Bachellor on
                     Tourism, both expired by University of Alicante.
                 </p>
@@ -64,5 +66,6 @@ export default function About(){
             //sliding images of fun times 
 
         </div>
+        </>
     )
 }
