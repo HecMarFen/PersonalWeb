@@ -11,18 +11,15 @@ export default function Home(){
             <header>
                 <Navbar/>
             </header>
-            <div>
+            
                 <About/>
-            </div>
-            <div>
+            
                 <CV/>
-            </div>
-            <div>
+            
                 <Projects/>
-            </div>
-            <div>
+            
                 <Contact/>
-            </div>
+            
             <footer>
                 <Footer/>
             </footer>
