@@ -8,9 +8,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../public/david-jorre-9f1gCaLkZBU-unsplash.jpg');
-  background-position: 100%;
-  background-size: 100%;
 }
 
 code {

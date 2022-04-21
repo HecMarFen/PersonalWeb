@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import About from '../components/About';
 import CV from '../components/CV';
@@ -9,7 +9,7 @@ export default function Home(){
     return(
         <div>
             <header>
-                <Navbar/>
+                <Header/>
             </header>
             
                 <About/>

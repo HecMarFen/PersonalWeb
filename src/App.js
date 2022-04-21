@@ -10,9 +10,6 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div>
-      <div>
-        <Home/>
-      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

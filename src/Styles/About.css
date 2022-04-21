@@ -3,7 +3,17 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     background-color: rgba(255, 255, 255, 0.89);
-
 }
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80vw;
+}
+
+/* background-image: url('../public/david-jorre-9f1gCaLkZBU-unsplash.jpg');
+background-position: 100%;
+background-size: 100%; */
