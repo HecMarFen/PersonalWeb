@@ -1,7 +1,7 @@
 export default function aboutData(){
     return(
         <>
-        <div>
+            <div>
                 <p>
                     I have a background in services, mainly in hospitality. I have worked in a Property Agency(sales),
                     Bank(sales), in a Hotel(multi department), in a Catering company(waiter and food preparation), and
