@@ -1,0 +1,72 @@
+*,*::after, *::before{
+    margin-top: 3px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:darkgray;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2vh;
+    background-color: rgba(255, 255, 255, 0);
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:3rem;
+}
+.nav_toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background-color:darkgreen;
+    transition: 0.4s ease-in;
+}
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 700px){
+    .nav_toggler{
+        display:block;
+    }
+    .nav_menu{
+        position: fixed;
+        top:7vh;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background-color: white;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+}
+
+.nav_active{
+    transform: translateX(0);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2{
+    opacity: 0;
+
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px, 5px);
+}
