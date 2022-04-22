@@ -23,6 +23,6 @@ export default function Footer() {
 				© 2022 Hector Marin Fenoll. All rights reserved
 			</div>
 		</div>
-	);
-};
+	)
+}
 

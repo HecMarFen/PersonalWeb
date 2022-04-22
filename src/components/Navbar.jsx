@@ -5,6 +5,7 @@ import React, {useState} from 'react'
 export default function Navbar(){
     const [active, setActive] = useState('nav_menu')
     const [toggleIcon, setToggleIcon] = useState('nav_toggler')
+    const [nav, setNav] = useState('nav')
     const navToggle = () => {
         active === 'nav_menu' ?
         setActive('nav_menu nav_active')
@@ -14,9 +15,19 @@ export default function Navbar(){
         setToggleIcon('nav_toggler toggle')
         : setToggleIcon('nav_toggler')
     }
+
+    const changeNav = () =>{
+        nav === 'nav' ?
+        setNav('nav_back')
+        : setNav('nav')
+    }
+    const changeNavs = ()=>{
+        console.log(window.scrollY)
+    }
+    window.addEventListener('scroll', changeNavs)
     
     return(
-        <nav>
+        <nav className={nav}>
             <div>
                 <a href='#'><img href='' alt='Personal logo'/></a>
             </div>
