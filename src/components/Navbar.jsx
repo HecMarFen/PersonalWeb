@@ -1,6 +1,6 @@
 import '../Styles/navbar.css'
 import React, {useState} from 'react'
-
+import logo from '../assets/logo'
 
 export default function Navbar(){
     const [active, setActive] = useState('nav_menu')
@@ -14,11 +14,12 @@ export default function Navbar(){
         setToggleIcon('nav_toggler toggle')
         : setToggleIcon('nav_toggler')
     }
+    const lgo = logo
     return(
         <nav>
 
             <div>
-                <a href='#'><img href='' alt='Personal logo'/></a>
+                <a href='#'><img href='lgo' alt='Personal logo'/></a>
             </div>
             <div>
             <ul className={active}>
