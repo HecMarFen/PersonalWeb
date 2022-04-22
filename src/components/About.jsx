@@ -7,14 +7,7 @@ export default function About(){
     const [showMore, setShowMore] = useState(false)
     const  aboutData = 
     <>
-    <div>
-    <p>
-        I have a background in services, mainly in hospitality. I have worked in a Property Agency(sales),
-        Bank(sales), in a Hotel(multi department), in a Catering company(waiter and food preparation), and
-        in a Cafe(events and waiter). I was able to manage people, work indipently and work in teams. 
-    </p>
-</div>
-<div>
+<div className='content'>
     <p>
         I recently finished a 9 week Bootcamp at Ironhack Berlin in 2022. We covered and worked with JavaScript
         (React, Express), Html5, CSS, MOngoDB, GitHub, Cloudinary, Heroku. Oh and Katas, we did a looot of them.
@@ -34,8 +27,6 @@ export default function About(){
         I prefer working in the Front End development, thus I believe there is more place for creativity
         and I just simply enjoy it more. 
     </p>
-</div>
-<div>
     <p>
         I am a very peacefull person who tends to empathise very easily and who loves a good
         conversation and a beer above anything. Thus we could say I am very communicative and
@@ -67,6 +58,13 @@ export default function About(){
                     the tech industry. I hold a Bachellor in Business science, and a second Bachellor on
                     Tourism, both expired by University of Alicante.
                 </p>
+                
+                <p>
+                    I have a background in services, mainly in hospitality. I have worked in a Property Agency(sales),
+                    Bank(sales), in a Hotel(multi department), in a Catering company(waiter and food preparation), and
+                    in a Cafe(events and waiter). I was able to manage people, work indipently and work in teams. 
+                </p>
+                
             </div>
             {showMore ? aboutData : ''}
             <button onClick={() => setShowMore(!showMore)}>{showMore? 'Show less' : 'Show more'}</button>
