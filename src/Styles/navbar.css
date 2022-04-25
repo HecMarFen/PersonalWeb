@@ -60,7 +60,7 @@ nav{
     }
     .nav_menu{
         position: fixed;
-        top:7vh;
+        top:10vh;
         right: 0;
         width: 50%;
         height: 90vh;
