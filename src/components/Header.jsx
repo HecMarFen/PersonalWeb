@@ -14,13 +14,8 @@ export default function Header(){
             </div>
             
             <div className='title'>
-
-                <p>Hector Marin Fenoll</p>
-                
+                Hector Marin Fenoll                
             </div>
-            
-            
-          
         </div>
     )
 }

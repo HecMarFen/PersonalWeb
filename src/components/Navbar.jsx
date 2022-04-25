@@ -28,7 +28,7 @@ export default function Navbar(){
     return(
         <nav className={nav}>
             <div>
-                <a href='#'><img href='' alt='Personal logo'/></a>
+                <a href='#'><img href='logo.jpg' alt='Personal logo'/></a>
             </div>
             <div>
             <ul className={active}>

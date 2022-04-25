@@ -11,7 +11,12 @@
     flex-direction: column;
 }
 .title{
+    display: flex;
+    height: 500px;
+    width: 100vw;
+    font-size: xx-large;
     color: darkgreen;
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
