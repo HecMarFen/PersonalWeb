@@ -16,13 +16,12 @@ export default function Navbar(){
         : setToggleIcon('nav_toggler')
     }
 
-    const changeNav = () =>{
-        nav === 'nav' ?
-        setNav('nav_back')
-        : setNav('nav')
-    }
     const changeNavs = ()=>{
-        console.log(window.scrollY)
+        if(window.scrollY > 35){
+            setNav('nav_back new_toggler')
+        }else{
+            setNav('nav')
+        }
     }
     window.addEventListener('scroll', changeNavs)
     
