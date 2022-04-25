@@ -47,10 +47,9 @@ export default function About(){
 
     return(
         <>
-        <h2>About me</h2>
-            <hr/>
         
         <div className="box">
+        <h2>About me</h2>
             <div className='content'>
                 <p>
                     Hello world. I am Hector Marin Fenoll I am a Spanish soul based in Berlin.

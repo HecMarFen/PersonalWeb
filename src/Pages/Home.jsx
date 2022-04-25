@@ -4,7 +4,7 @@ import About from '../components/About';
 import CV from '../components/CV';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
-import Navbar from "../components/Navbar";
+import Quotes from "../components/Quotes";
 
 export default function Home(){
     return(
@@ -14,6 +14,8 @@ export default function Home(){
             </header>
             
                 <About/>
+
+                <Quotes/>
             
                 <CV/>
             

@@ -1,0 +1,28 @@
+.box_quote{
+    width: 100vw;
+    height: 300px;
+    background-color: rgba(0, 100, 0, 0.89);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+.quote:hover{
+    transition-duration: 10s;
+    transition: ease-in-out;
+    font-size: 50px;
+
+}
+.author{
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
