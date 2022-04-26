@@ -6,11 +6,13 @@ import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Quotes from "../components/Quotes";
 
+
 export default function Home(){
     return(
         <div>
             <header>
                 <Header/>
+                
             </header>
             
                 <About/>

@@ -1,7 +1,7 @@
 
 import '../Styles/header.css'
 import Navbar from './Navbar'
-
+import Me from '../components/Me'
 
 
 
@@ -16,6 +16,8 @@ export default function Header(){
             <div className='title'>
                 Hector Marin Fenoll                
             </div>
+            <Me/>
+            
         </div>
     )
 }

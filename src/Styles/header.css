@@ -12,11 +12,36 @@
 }
 .title{
     display: flex;
-    height: 500px;
+    height: 250px;
     width: 100vw;
     font-size: xx-large;
     color: darkgreen;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    box-shadow: 5px;
+    display: flex;
+    position: fixed;
+    top: 350px;
+    left: 3%;
+  }
+  .circle2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    box-shadow: 5px;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 3%;
+  }
