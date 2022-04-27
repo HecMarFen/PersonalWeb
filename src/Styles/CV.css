@@ -6,13 +6,39 @@
 .display_box{
     display: flex;
     width: 60vw;
+    flex-direction: column;
 }
-.side{
+.side_box{
     display: flex;
     flex-direction: column;
     width: 40vw;
 }
+.image_cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 40vh;
+}
 .button_list{
     display: flex;
     flex-direction: column;
+}
+.button_education{
+    background-color: aliceblue;
+}
+.button_skills{
+    background-color: yellow;
+}
+.button_languages{
+    background-color: greenyellow;
+}
+.button_experience{
+    background-color: white;
+}
+.button_licenses{
+    background-color: rgba(0, 100, 0, 0.767);
+}
+.button_courses{
+    background-color: rgba(0, 100, 0, 0.329);
 }
