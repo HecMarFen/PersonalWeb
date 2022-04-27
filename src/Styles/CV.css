@@ -1,0 +1,18 @@
+.cv_box{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.display_box{
+    display: flex;
+    width: 60vw;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.button_list{
+    display: flex;
+    flex-direction: column;
+}

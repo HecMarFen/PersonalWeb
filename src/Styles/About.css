@@ -11,7 +11,18 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 80vw;
+    margin-left: 370px;
+    margin-right: 10%;
+}
+.about_title{
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+.paragraph{
+    display: flex;
+    padding-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* background-image: url('../public/david-jorre-9f1gCaLkZBU-unsplash.jpg');
