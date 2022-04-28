@@ -1,11 +1,8 @@
-import { useEffect, useState } from 'react'
-import '../Styles/CV.css'
+import '../../Styles/CV.css'
 
-
-export default function CV(){
-    
-    const experience =
-    <>
+export default function Experience(){
+    return(
+        <>
     <h2>Work Experience</h2>
     <hr/>
     <div>
@@ -83,8 +80,8 @@ export default function CV(){
                     <td>Alicante, Spain</td>
                 </tr>
                 <tr>
-                    <td> Workstudent as property agent
-                        - Task included: 
+                    <td> Workstudent as property agent.
+                        - Tasks included: Contact new clients, cold calls. Source properties for existing clients, listings property views.
                     </td>
                 </tr>
             </td>  
@@ -94,54 +91,6 @@ export default function CV(){
     </div>
     
     </>
-    const education = <>this is the education</>
-    const languages = <>this is languages</>
-    const skills = <>this is skills</>
-    const courses = <>this is courses</>
-    const licenses = <> licenses i got when i was a kid</>
-    const [display, setDisplay] = useState(experience)
-    
-
-    const handleExperience = () => {
-        setDisplay(experience)
-    }
-    const handleEducation = () => {
-        setDisplay(education)
-    }
-    const handleSkills = () => {
-        setDisplay(skills)
-    }
-    const handleLanguages = () => {
-        setDisplay(languages)
-    }
-    const handleCourses = () => {
-        setDisplay(courses)
-    }
-    const handleLicenses = () => {
-        setDisplay(licenses)
-    }
-
-    return(
-        <div className='cv_box'>
-            <div className='display_box'>
-               {display}
-            </div>
-            <div className='side_box'>
-                <div className='image_cv' >
-                    //sliding images of me
-                </div>
-                <div className='button_list'>
-                
-                    <button className='button_experience' onClick={handleExperience}>Experience</button>
-                    <button className='button_education' onClick={handleEducation}>Education</button>
-                    <button className='button_skills' onClick={handleSkills}>Skills</button>
-                    <button className='button_languages' onClick={handleLanguages}>Languages</button>
-                    <button className='button_courses' onClick={handleCourses}>Courses</button>
-                    <button className='button_licenses' onClick={handleLicenses}>Licenses</button>
-
-                </div>
-            </div>
-        
-        </div>
     )
+
 }

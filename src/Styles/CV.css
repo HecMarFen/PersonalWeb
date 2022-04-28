@@ -7,6 +7,7 @@
     display: flex;
     width: 60vw;
     flex-direction: column;
+    padding: 5% 5% 3% 5%;
 }
 .side_box{
     display: flex;
@@ -41,4 +42,11 @@
 }
 .button_courses{
     background-color: rgba(0, 100, 0, 0.329);
+}
+hr{
+    background-color: darkgreen;
+    height: 5px;
+    border-radius: 30px;
+    border-color: darkgreen;
+    margin: 5px 0 12px;
 }

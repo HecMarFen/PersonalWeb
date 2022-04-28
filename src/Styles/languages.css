@@ -1,0 +1,98 @@
+.progress_spanish {
+    background: rgba(240, 69, 69, 0.877);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+  }
+  
+  .progress_spanish-value {
+    animation: loadsp 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+@keyframes loadsp {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+.progress_english {
+    background: rgba(240, 69, 69, 0.877);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+}
+  
+.progress_english-value {
+    animation: loadeng 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes loadeng {
+    0% { width: 0; }
+    100% { width: 83.33%; }
+}
+.progress_german {
+    background: rgba(240, 69, 69, 0.877);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+}
+  
+.progress_german-value {
+    animation: loadgerm 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes loadgerm {
+    0% { width: 0; }
+    100% { width: 33.33%; }
+}
+.progress_catalan {
+    background: rgba(240, 69, 69, 0.877);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+}
+  
+.progress_catalan-value {
+    animation: loadcat 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes loadcat {
+    0% { width: 0; }
+    100% { width: 50%; }
+}

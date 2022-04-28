@@ -2,7 +2,7 @@ import './App.css';
 import { Route, Routes } from "react-router-dom"; 
 import Home from './Pages/Home'
 import About from './components/About';
-import CV from './components/CV';
+import CV from './components/CV/CV';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
