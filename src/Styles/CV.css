@@ -26,22 +26,32 @@
 }
 .button_education{
     background-color: aliceblue;
+    border: 0cm;
 }
 .button_skills{
     background-color: yellow;
+    border:0cm;
+    border-color: yellow;
 }
 .button_languages{
     background-color: #d0d0d0;
+    height: 30px;
+    border: 0cm;
     border-color: #d0d0d0;
 }
 .button_experience{
     background-color: white;
+    height: 30px;
+    border: 0cm;
+    border-color: white;
 }
 .button_licenses{
     background-color: rgba(0, 100, 0, 0.767);
+    border:0cm;
 }
 .button_courses{
     background-color: rgba(0, 100, 0, 0.329);
+    border: 0cm;
 }
 hr{
     background-color: darkgreen;
@@ -50,5 +60,5 @@ hr{
     border-color: darkgreen;
     margin: 10px 0 20px;
     width: 30%;
-    transition:
+    
 }

@@ -1,9 +1,12 @@
 import '../../Styles/languages.css'
+import '../../Styles/education.css'
 
 export default function Languages (){
     return(
         < div className='display_box_lan'>
-            <h2 className='cv_title_lan' >Languages knowledge</h2>
+            <div class="line">
+                <h2 class='lineUp'>Languages knowledge</h2>
+            </div>
             <hr/>
             <div className="progress_spanish">
                 <div className="progress_spanish-value"></div>
