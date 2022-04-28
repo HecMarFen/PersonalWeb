@@ -2,8 +2,8 @@ import '../../Styles/languages.css'
 
 export default function Languages (){
     return(
-        <>
-            <h2>Languages knowledge</h2>
+        < div className='display_box_lan'>
+            <h2 className='cv_title_lan' >Languages knowledge</h2>
             <hr/>
             <div className="progress_spanish">
                 <div className="progress_spanish-value"></div>
@@ -34,6 +34,13 @@ export default function Languages (){
                 <div>B1</div>
             </div>
 
-        </>
+        </div>
     )
 }
+{/* <div class="animated-title">
+  <div class="text-top">
+    <div>
+      <span>apple's design</span>
+    </div>
+  </div>
+</div> */}

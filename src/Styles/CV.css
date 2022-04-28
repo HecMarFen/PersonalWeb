@@ -7,7 +7,6 @@
     display: flex;
     width: 60vw;
     flex-direction: column;
-    padding: 5% 5% 3% 5%;
 }
 .side_box{
     display: flex;
@@ -32,7 +31,8 @@
     background-color: yellow;
 }
 .button_languages{
-    background-color: greenyellow;
+    background-color: #d0d0d0;
+    border-color: #d0d0d0;
 }
 .button_experience{
     background-color: white;
@@ -48,5 +48,7 @@ hr{
     height: 5px;
     border-radius: 30px;
     border-color: darkgreen;
-    margin: 5px 0 12px;
+    margin: 10px 0 20px;
+    width: 30%;
+    transition:
 }
