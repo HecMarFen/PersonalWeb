@@ -1,0 +1,8 @@
+.display_box_exp{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 5% 5% 3% 5%;
+    background-color: white;
+}

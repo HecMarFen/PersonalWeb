@@ -1,10 +1,16 @@
 import '../../Styles/CV.css'
+import '../../Styles/education.css'
+import '../../Styles/experience.css'
 
 export default function Experience(){
     return(
-        <>
-    <h2>Work Experience</h2>
-    <hr/>
+        
+    <div className='display_box_exp'>   
+            <div class="line">
+                <h2 class='lineUp'>Experience</h2>
+            </div>
+            <hr/> 
+        
     <div>
     <table>
         <tr>
@@ -90,7 +96,7 @@ export default function Experience(){
 
     </div>
     
-    </>
+    </div>
     )
 
 }
