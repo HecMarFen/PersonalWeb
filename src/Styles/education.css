@@ -37,7 +37,6 @@
   align-items: center;
   flex-direction: row;
   align-content: center;
-  
   width:100%;
   margin-bottom: 5%;
   margin-left: 5%;
@@ -48,6 +47,6 @@
   
 }
 .dip_icon{
-  width:40px;
-  height: 40px;
+  width:50px;
+  height: 50px;
 }

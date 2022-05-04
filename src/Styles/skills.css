@@ -1,0 +1,20 @@
+.show_skills{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+}
+.main_skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-right: 7.5%;
+    padding-left: 5%;
+}
+.secondary_skills{
+    padding-top: 3%;
+    padding-right: 3%;
+    
+}

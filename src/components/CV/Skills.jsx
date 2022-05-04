@@ -1,4 +1,5 @@
 import '../../Styles/education.css'
+import '../../Styles/skills.css'
 import { GiSkills} from 'react-icons/gi'
 import {AiOutlineRobot} from 'react-icons/ai'
 import {MdPeopleAlt} from 'react-icons/md'
@@ -31,30 +32,91 @@ export default function Skills (){
             </div>
             <hr/>
             <div>
-                < GiSkills />
-                <AiOutlineRobot />
-                <MdPeopleAlt/> empathize
-                <GiTalk /> communication
-                <RiTeamFill /> Team Player
-                <BsCheckLg /> Positive Actitude
-                <GrAssistListening/>Good listener
-                <FaArrowRight /> Proactive
-                <RiFileExcel2Fill/> Excell
-                <SiMongodb/> MongoDB
-                <DiJavascript1/>JavaScript
-                <SiHtml5 /> HTML5
-                <SiCsswizardry/> CSS3
-                <RiReactjsFill />React.js
-                <BsFillBootstrapFill /> Bootstrap
-                <FaGithub />GitHub
-                <BsCloudCheckFill/>Cloudinary
-                <GrHeroku />Heroku
-                <GrWordpress/>Wordpress
-                <SiJirasoftware/>Jira Software
-                <SiGoogleanalytics />Google Analytics
-                <RiPlaneLine />Spanish Tourism Market knowledge
-                <MdEuroSymbol /> Business knowledge
+                <div className='show_skills'>
+                    <div className='main_skills'>
+                        < GiSkills className='dip_icon' />
+                    </div> 
+                    <div>
+                        <div className='secondary_skills'>
+                            <MdPeopleAlt/> Empathize
+                        </div>
+                        <div className='secondary_skills'>
+                            <GiTalk /> Communication
+                        </div>
+                        <div className='secondary_skills'>
+                            <RiTeamFill /> Team Player
+                        </div>
+                        <div className='secondary_skills'>
+                            <BsCheckLg /> Positive Actitude
+                        </div>
+                        <div className='secondary_skills'>
+                            <GrAssistListening/>Good listener
+                        </div>
+                        <div className='secondary_skills'>
+                            <FaArrowRight /> Proactive
+                        </div>
 
+                    </div>
+                    <div>
+                        
+                    </div>
+                
+                </div>
+                <div className='show_skills'>
+                    <div className='main_skills'>
+                        <AiOutlineRobot className='dip_icon'/>
+                    </div>
+                    <div>
+                        <div>
+                        <RiFileExcel2Fill className='secondary_skills'/> Excell
+                        </div>
+                        <div>
+                        <SiMongodb className='secondary_skills'/> MongoDB
+                        </div>
+                        <div>
+                        <DiJavascript1 className='secondary_skills'/>JavaScript
+                        </div>
+                        <div>
+                        <SiHtml5 className='secondary_skills' /> HTML5
+                        </div>
+                        <div>
+                        <SiCsswizardry className='secondary_skills'/> CSS3
+                        </div>
+                        <div>
+                        <RiReactjsFill className='secondary_skills'/>React.js
+                        </div>
+                        <div>
+                        <BsFillBootstrapFill className='secondary_skills' /> Bootstrap
+                        </div>
+                        <div>
+                        <FaGithub className='secondary_skills' />GitHub
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                        <BsCloudCheckFill className='secondary_skills'/>Cloudinary
+                        </div>
+                        <div>
+                        <GrHeroku className='secondary_skills' />Heroku
+                        </div>
+                        <div>
+                        <GrWordpress className='secondary_skills'/>Wordpress
+                        </div>
+                        <div>
+                        <SiJirasoftware className='secondary_skills'/>Jira Software
+                        </div>
+                        <div>
+                        <SiGoogleanalytics className='secondary_skills'/>Google Analytics
+                        </div>
+                        <div>
+                        <RiPlaneLine className='secondary_skills' />Spanish Tourism Market knowledge
+                        </div>
+                        <div>
+                        <MdEuroSymbol className='secondary_skills' /> Business knowledge
+                        </div>
+
+                    </div>
+                </div>
             </div> 
         </div> 
     )
