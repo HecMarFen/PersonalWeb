@@ -1,32 +1,4 @@
-.canvas{
-    display: flex;
-    background-color: aqua;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3%;
-    overflow: hidden;
-    touch-action: none;
-    width: 100%;
-    height: 20%;
-}
-.time_line{
-    width: 90%;
-    background-color: black;
-}
-.circle_time {
-    height: 15px;
-    width: 15px;
-    background-color: darkgreen;
-    border-radius: 50%;
-}
-.circle_time:active {
-    background-color: green;
-    border-width: 20px;
-    border-color: yellow;
-}
-.circle_time:hover {
-    cursor: pointer;
-    background-color: yellow;
-    /* border-width: 20px;
-    border-color: yellow; */
+.bb{
+    background-color: rgba(128, 128, 128, 0.247);
+    background-color: darkgreen
 }

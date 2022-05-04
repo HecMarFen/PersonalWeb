@@ -10,7 +10,7 @@ import languages from './Languages'
 
 export default function CV(){
     
-    const [display, setDisplay] = useState(skills)
+    const [display, setDisplay] = useState(courses)
     
 
     const handleExperience = () => {
