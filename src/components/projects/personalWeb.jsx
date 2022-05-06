@@ -1,6 +1,8 @@
+import '../../Styles/projects.css'
+
 export default function personalWeb (){
     return(
-        <div>
+        <div className='projects_box'>
             <div>
                 fecha
             </div>
@@ -14,7 +16,7 @@ export default function personalWeb (){
                     In this case we can see a big improvement in the use of CSS and Web Design
                 </p>
             </div>
-            <button>To the website</button>
+            <button className='button_link_project'>To the website</button>
 
         </div>
     )
