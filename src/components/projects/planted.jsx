@@ -1,13 +1,17 @@
+import '../../Styles/projects.css'
+
 export default function planted (){
     return(
-        <>
-        <div>
+        
+        <div className='projects_box'>
+                
+            <div>
                 fecha
             </div>
             <div>
                <h1> Planted app</h1> 
             </div>
-            <div>
+            <div className='info_project'>
                 <p>
                     Planted is a App develop with Js. This is the first project that I developed
                     where a Database interacts with the user via requests. The project uses sessions to handle the login-signup
@@ -20,8 +24,8 @@ export default function planted (){
                     The project was develop in four days and the seconth under Ironhack teachers supervision.
                 </p>
             </div>
-            <button>To the app</button>
+            <button className='button_link_project'>To the app</button>
 
-        </>
+        </div>
     )
 }

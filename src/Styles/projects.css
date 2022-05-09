@@ -10,26 +10,57 @@
   background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   align-items: center;
 }
+.rs_box{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 85vh;
+  background-image: url(../../public/image/ram.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  align-items: center;
+}
+.pl_box{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 85vh;
+  background-image: url(../../public/image/chuttersnap-Zs_EII3lr4o-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
 .projects_box{
   display: flex;
   align-items: flex-end;
   margin-right: 4%;
   flex-direction: column;
+  text-align: right;
+}
+.info_project{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 10%;
+  color: white
 }
 .personalWebLine{
   border-left: 2px solid white;
   height: 100%;
 }
 .ramshackleLine{
-  border-left: 2px solid rgb(30, 228, 73);
+  border-left: 2px solid white;
   height: 100%;
 }
 .crabbyLine{
-  border-left: 2px solid rgb(66, 30, 228);
+  border-left: 2px solid white;
   height: 100%;
 }
 .plantedLine{
-  border-left: 2px solid rgb(228, 30, 40);
+  border-left: 2px solid white;
   height: 100%;
 }
 .buttons_list{
@@ -45,9 +76,23 @@
   color: white;
   width: 100px;
   height: 50px;
-  margin-top: 3%; 
+  margin-top: 3%;
+  margin-left: 3%;
 }
 .button_link_project:hover{
   color:black;
   background-color: white;
+}
+.few_buttons_project{
+  display: flex;
+  margin-top: 3%;
+
+}
+.button_project{
+  margin: 10% 0 10%;
+  border:0cm;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  text-align: left;
 }

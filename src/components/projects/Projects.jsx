@@ -21,29 +21,27 @@ export default function Projects(){
     const handleRamshackle = () => {
         setProject(ramshackle)
         setLine('ramshackleLine')
+        setBackground('rs_box')
     }
     const handlePlanted = () => {
         setProject(planted)
         setLine('plantedLine')
+        setBackground('pl_box')
     }
     const handleCrabby = () => {
         setProject(crabby)
         setLine('crabbyLine')
+        setBackground('pw_box')
     }
     
-
-    const handlePrevious = () =>{
-       project === ramshackle &&
-       setProject(personalWeb)
-       
-    }
-    const handleNext = () =>{
-        project === personalWeb ?
-        setProject(ramshackle) :
-        setProject(personalWeb)
-    }
-    
-
+    // const data = [personalWeb, ramshackle, planted, crabby]
+    // const handlePrevious = () =>{   
+    // }
+    // const handleNext = () =>{
+    //     for(let i=0; i<data.length; i++){
+    //         setProject(data[i+1])
+    //     }
+    // }
     
     return(
         <div className={background}>
@@ -54,12 +52,12 @@ export default function Projects(){
                 
             </div>
             <div className='buttons_list'>
-                <button onClick={handlePrevious}><div>here comes the div with the up arrow</div></button>
-                <button onClick={handlePersonalWeb}>Personal Web</button>
-                <button  onClick={handleRamshackle}>Ramshackle</button>
-                <button  onClick={handlePlanted}>Planted</button>
-                <button  onClick={handleCrabby}>Crabby</button>
-                <button onClick={handleNext}><div>here comes the div with down arrow</div></button>
+                {/* <button onClick={handlePrevious}>previous</button> */}
+                <button className='button_project' onClick={handlePersonalWeb}>Personal Web</button>
+                <button className='button_project' onClick={handleRamshackle}>Ramshackle</button>
+                <button className='button_project' onClick={handlePlanted}>Planted</button>
+                <button className='button_project' onClick={handleCrabby}>Crabby</button>
+                {/* <button onClick={handleNext}>next</button> */}
             </div>
         </div>
     )

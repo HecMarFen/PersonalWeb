@@ -1,13 +1,16 @@
+import '../../Styles/projects.css'
+
 export default function ramshackle (){
+
     return(
-        <>
-        <div>
+        <div className='projects_box'>
+            <div>
                 fecha
             </div>
             <div>
                <h1>Ramshackle collective</h1> 
             </div>
-            <div>
+            <div className='info_project'>
                 <p>
                     This is the final project at Irohack. In this case I team up with a kollegue again
                     We divided some tasks but help each other to develop de project.
@@ -21,9 +24,12 @@ export default function ramshackle (){
                     The project was develop from scratch in six days.
                 </p>
             </div>
-            <button>To the public view</button>
-            <button>To the admin view</button>
+            <div className='few_buttons_project'>
+                <button className='button_link_project'>To the public view</button>
+                <button className='button_link_project'>To the admin view</button>
+            </div>
+            
 
-        </>
+        </div>
     )
 }
