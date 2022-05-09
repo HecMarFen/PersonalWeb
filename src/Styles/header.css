@@ -32,6 +32,9 @@
     position: fixed;
     top: 350px;
     left: 3%;
+    background-image: url(../../public/image/IHJAN20221183.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .circle2{
     height: 300px;
@@ -44,4 +47,7 @@
     position: absolute;
     top: 600px;
     left: 3%;
+    background-image: url(../../public/image/IHJAN20221183.jpg);
+    background-position: center;
+    background-size: cover;
   }

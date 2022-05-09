@@ -85,3 +85,9 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-4px, 5px);
 }
+.personalLogo{
+    background-color: rgb(228, 239, 231);
+    margin-top: 2px;
+    height: 10vh;
+    width: 210px;
+}

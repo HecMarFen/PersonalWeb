@@ -2,6 +2,7 @@ import '../Styles/navbar.css'
 import React, {useState} from 'react'
 
 
+
 export default function Navbar(){
     const [active, setActive] = useState('nav_menu')
     const [toggleIcon, setToggleIcon] = useState('nav_toggler')
@@ -28,7 +29,7 @@ export default function Navbar(){
     return(
         <nav className={nav}>
             <div>
-                <a href='#'><img href='logo.jpg' alt='Personal logo'/></a>
+                <a href='#'><img className='personalLogo' src='image/logo.JPG' alt='Personal logo'/></a>
             </div>
             <div>
             <ul className={active}>

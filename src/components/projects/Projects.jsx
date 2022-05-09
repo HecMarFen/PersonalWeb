@@ -54,7 +54,7 @@ export default function Projects(){
             <div className='buttons_list'>
                 {/* <button onClick={handlePrevious}>previous</button> */}
                 <button className='button_project' onClick={handlePersonalWeb}>Personal Web</button>
-                <button className='button_project' onClick={handleRamshackle}>Ramshackle</button>
+                <button className='button_project' onClick={handleRamshackle}>Ram Shackle</button>
                 <button className='button_project' onClick={handlePlanted}>Planted</button>
                 <button className='button_project' onClick={handleCrabby}>Crabby</button>
                 {/* <button onClick={handleNext}>next</button> */}
