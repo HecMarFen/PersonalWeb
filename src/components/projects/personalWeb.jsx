@@ -6,10 +6,10 @@ export default function personalWeb (){
             <div>
                 fecha
             </div>
-            <div>
-               <h1> Personal Web</h1> 
+            <div className='line'>
+               <h1 className='lineUp'> Personal Web</h1> 
             </div>
-            <div>
+            <div className='info_project2'>
                 <p>
                     The personal web was built with JavaScript with the React frameWork.
                     This is the first website developed by myself without external help or guidance

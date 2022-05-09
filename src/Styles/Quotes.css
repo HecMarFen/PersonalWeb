@@ -1,8 +1,8 @@
 .box_quote{
     width: 100vw;
     height: 300px;
-    background-color: rgba(0, 100, 0, 0.89);
-    color: white;
+    background-color: #064420;
+    color: rgb(253, 250, 246);
     display: flex;
     align-items: center;
     justify-content: center;

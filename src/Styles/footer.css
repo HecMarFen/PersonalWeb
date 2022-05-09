@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.315);
+    background-color: rgb(228, 239, 231);
     width: 100vw;
     height: 30vh;
 }
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-around;
     width: 40%;
-    color:black;
+    color:rgb(6, 68, 32);
     text-decoration:dashed;
 }
 .footer-links-2{
@@ -20,8 +20,8 @@
     align-items: center;
     justify-content: space-around;
     width: 20%;
-    color:black;
+    color:rgb(6, 68, 32);
 }
 .footer-icon{
-    color: black;
+    color: rgb(6, 68, 32);
 }

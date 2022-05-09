@@ -1,13 +1,15 @@
+import '../../Styles/projects.css'
+
 export default function crabby (){
     return(
-        <>
-        <div>
+        <div className='projects_box'>
+            <div>
                 fecha
             </div>
             <div>
                <h1> Crabby Game</h1> 
             </div>
-            <div>
+            <div className='info_project2'>
                 <p>
                     This project is pure JavaScript based. It is developed under OOP and P5.
                     The project consists on a canvas where different objects interact between them.
@@ -20,8 +22,8 @@ export default function crabby (){
                     
                 </p>
             </div>
-            <button>To the game</button>
+            <button className='button_link_project'>To the game</button>
 
-        </>
+        </div>
     )
 }

@@ -46,10 +46,9 @@ export default function About(){
 </>;
 
     return(
-        <>
         
         <div className="box">
-        <h2  className='about_title'>About me</h2>
+            <h2  className='about_title'>About me</h2>
             <div className='content'>
                 <p className='paragraph'>
                     Hello world. I am Hector Marin Fenoll I am a Spanish soul based in Berlin.
@@ -65,10 +64,13 @@ export default function About(){
                 </p>
                 
             </div>
+            
             {showMore ? aboutData : ''}
-            <button onClick={() => setShowMore(!showMore)}>{showMore? 'Show less' : 'Show more'}</button> 
-
+            <button className='btn btn-one' onClick={() => setShowMore(!showMore)}>
+                <span>{showMore? 'Show less' : 'Show more'}</span>
+            </button> 
+            
         </div>
-        </>
+        
     )
 }

@@ -1,10 +1,10 @@
 .box{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     flex-direction: column;
     width: 100vw;
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgb(253, 250, 246);
 }
 .content{
     display: flex;
@@ -15,6 +15,7 @@
     margin-right: 10%;
 }
 .about_title{
+    margin-left: 370px;
     padding-top: 45px;
     padding-bottom: 10px;
 }
@@ -24,7 +25,62 @@
     text-align: justify;
     text-justify: inter-word;
 }
-
-/* background-image: url('../public/david-jorre-9f1gCaLkZBU-unsplash.jpg');
-background-position: 100%;
-background-size: 100%; */
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    margin: 1% 370px 1%;
+  }
+.btn-one {
+    color: rgb(6, 68, 32);
+    transition: all 0.3s;
+    position: relative;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.068);
+  }
+  .btn-one span {
+    transition: all 0.3s;
+  }
+  .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(6, 68, 32);
+    border-bottom-color: rgb(6, 68, 32);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 2px;
+  }
+  .btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
+  

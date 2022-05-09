@@ -9,29 +9,29 @@ import crabby from './crabby'
 export default function Projects(){
 
     const [project, setProject] = useState(personalWeb)
-    const [line, setLine] = useState('personalWebLine')
+    const [triangle, setTriangle] = useState('triangle-PW')
     const [background, setBackground] = useState('pw_box')
     
 
     const handlePersonalWeb = () => {
         setProject(personalWeb)
-        setLine('personalWebLine')
+        setTriangle('triangle-PW')
         setBackground('pw_box')
     }
     const handleRamshackle = () => {
         setProject(ramshackle)
-        setLine('ramshackleLine')
+        setTriangle('triangle-RS')
         setBackground('rs_box')
     }
     const handlePlanted = () => {
         setProject(planted)
-        setLine('plantedLine')
+        setTriangle('triangle-PL')
         setBackground('pl_box')
     }
     const handleCrabby = () => {
         setProject(crabby)
-        setLine('crabbyLine')
-        setBackground('pw_box')
+        setTriangle('triangle-CR')
+        setBackground('cr_box')
     }
     
     // const data = [personalWeb, ramshackle, planted, crabby]
@@ -48,8 +48,8 @@ export default function Projects(){
             <div>
                 {project}
             </div>
-            <div className={line}>
-                
+            <div className='divLine'>
+                <div className={triangle}></div>    
             </div>
             <div className='buttons_list'>
                 {/* <button onClick={handlePrevious}>previous</button> */}

@@ -17,7 +17,7 @@ export default function Navbar(){
     }
 
     const changeNavs = ()=>{
-        if(window.scrollY > 20){
+        if(window.scrollY > 15){
             setNav('nav_back new_toggler')
         }else{
             setNav('nav')
