@@ -1,4 +1,4 @@
-import '../Styles/Contact.css'
+import '../Styles/Contact.scss'
 import { useState } from 'react'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -30,21 +30,26 @@ export default function Contact(){
 
 
   return(
-    <div id='Contact'>
+    <div id='Contact' className='contact_box'>
       <form name='contact_form' ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
+        <div className='input-container'>
+        <label >Name</label>
           <input type="text"
                  name="user_name"
-                 placeholder='Foo'
+                //  placeholder='Foo'
                  value={name}
                  required
           />
+
+        </div>
+        
         <label>Email</label>
           <input type="email"
                  name="user_email"
                  placeholder='foo@email.com'
                  value={email}
                  required
+                 className='imput_box'
           />
         <label>Message</label>
         <textarea name="message" />
