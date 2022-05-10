@@ -33,7 +33,7 @@ export default function CV(){
     }
 
     return(
-        <div className='cv_box'>
+        <div className='cv_box' id='CV'>
             <div className='display_box'>
                {display}
             </div>

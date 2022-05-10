@@ -1,71 +1,60 @@
 import '../Styles/Contact.css'
 import { useState } from 'react'
-import {send} from 'emailjs-com'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 
 export default function Contact(){
 
-    const [toSend, setToSend] = useState()
-    //({
-    //     from_name,
-    //     e_mail,
-    //     message,
-    // })
+  const [name, setName] = useState()
+  const [email, setEmail] = useState()
+  const [message, setMessage] = useState()
 
-    const handleOnSubmit = (e) =>{
-        e.preventDefault()
-        send(
-            'service_t19nb54',
-            'template_ik0uwk8',
-            toSend,
-            'User ID'
-          )
-            .then((response) => {
-              console.log('SUCCESS!', response.status, response.text);
-            })
-            .catch((err) => {
-              console.log('FAILED...', err);
-            });
-    };
-    
+  const form = useRef();
 
-    const handleChange = (e) => {
-        setToSend({... toSend, [e.target.name]: e.target.value})
-    }
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_t19nb54', 'contact_form', form.current, 'D9x_LiJkveSGxcffZ')
+      .then((result) => {
+          console.log(
+          result.text === "OK" ? console.log("Email sent") : alert("Something went wrong. Try again"))
+          setName("")
+          setMessage("")
+          setEmail("")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
 
-    return(
-        <></>
-        // <div className='container'>
-        //     <div className='row'>
-        //         <h2>Contact me</h2>
-        //     </div>
-        //     <form onSubmit={handleOnSubmit}>
-        //         <input
-        //             type='text'
-        //             name='from_name'
-        //             placeholder='Name'
-        //             value={toSend.from_name}
-        //             onChange={handleChange}
-        //         />
-        //         <input
-        //             type='text'
-        //             name='e_mail'
-        //             placeholder='email'
-        //             value={toSend.e_mail}
-        //             onChange={handleChange}
-        //         />
-        //         <input
-        //             type='text'
-        //             name='message'
-        //             placeholder='Your message'
-        //             value={toSend.message}
-        //             onChange={handleChange}
-        //         />
-        //         <button type='submit'>Submit</button>
-        //     </form>
-            
-        // </div>
-       
-    )
+  return(
+    <div id='Contact'>
+      <form name='contact_form' ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+          <input type="text"
+                 name="user_name"
+                 placeholder='Foo'
+                 value={name}
+                 required
+          />
+        <label>Email</label>
+          <input type="email"
+                 name="user_email"
+                 placeholder='foo@email.com'
+                 value={email}
+                 required
+          />
+        <label>Message</label>
+        <textarea name="message" />
+          <input type="submit"
+                 placeholder="Your message"
+                 value= {message}
+                 required
+          />
+      </form>
+          
+    </div>
+  )
 }

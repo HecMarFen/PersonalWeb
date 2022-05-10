@@ -44,7 +44,7 @@ export default function Projects(){
     // }
     
     return(
-        <div className={background}>
+        <div className={background} id='Projects'>
             <div>
                 {project}
             </div>

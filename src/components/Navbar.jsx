@@ -1,5 +1,6 @@
 import '../Styles/navbar.css'
 import React, {useState} from 'react'
+import { HashLink as Link} from 'react-router-hash-link'
 
 
 
@@ -34,19 +35,19 @@ export default function Navbar(){
             <div>
             <ul className={active}>
                 <li className="nav_item">
-                    <a href="" className="nav_link">Home</a>
+                    <Link className="nav_link" to='#Home' smooth >Home</Link>
                 </li>
                 <li className="nav_item">
-                    <a href="" className="nav_link">About</a>
+                    <Link className="nav_link" to='#About' smooth >About</Link>
                 </li>
                 <li className="nav_item">
-                    <a href="" className="nav_link">Portfolio</a>
+                    <Link className="nav_link" to='#CV' smooth >CV</Link>
                 </li>
                 <li className="nav_item">
-                    <a href="" className="nav_link">CV</a>
+                    <Link className="nav_link" to='#Projects' smooth >Porfolio</Link>
                 </li>
                 <li className="nav_item">
-                    <a href="" className="nav_link">Contact</a>
+                    <Link className="nav_link" to='#Contact' smooth >Contact</Link>
                 </li>
             </ul>
             </div>

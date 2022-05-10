@@ -8,7 +8,7 @@ import Me from '../components/Me'
 export default function Header(){
     
     return(
-        <div className='header-box'>
+        <div className='header-box' id='Home'>
             <div>
             <Navbar/>
             </div>

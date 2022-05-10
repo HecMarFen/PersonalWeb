@@ -47,7 +47,7 @@ export default function About(){
 
     return(
         
-        <div className="box">
+        <div className="box" id='About'>
             <h2  className='about_title'>About me</h2>
             <div className='content'>
                 <p className='paragraph'>
