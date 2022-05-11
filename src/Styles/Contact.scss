@@ -1,8 +1,11 @@
 .contact_box{
     display: flex;
     width: 100vw;
-    height: 80vh;
-    background-color: #064420;
+    height: 100vh;
+    background-image: url(../../public/image/Capture2.JPG);
+    background-position: center;
+    background-size:contain;
+    background-repeat:repeat;
     padding-top: 5%;
     align-items: center;
     justify-content: center;

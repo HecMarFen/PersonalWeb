@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   background-image: url(../../public/image/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   background-image: url(../../public/image/ram.jpg);
   background-size: cover;
   background-position: top;
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   background-image: url(../../public/image/chuttersnap-Zs_EII3lr4o-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   background-image: url(../../public/image/twilight_beach.gif);
   background-size: cover;
   background-position: bottom;
