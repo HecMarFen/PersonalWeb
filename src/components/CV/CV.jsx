@@ -22,7 +22,7 @@ export default function CV(){
         
 
     }
-   
+   //here we need to work like in the navbar code
 
     const handleExperience = () => {
         setDisplay(experience)
